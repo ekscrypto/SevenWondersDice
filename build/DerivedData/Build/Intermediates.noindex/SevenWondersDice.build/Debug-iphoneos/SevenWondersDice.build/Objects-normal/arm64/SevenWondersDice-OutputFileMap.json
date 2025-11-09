@@ -1,0 +1,149 @@
+{
+  "" : {
+    "diagnostics" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/SevenWondersDice-primary.dia",
+    "emit-module-dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/SevenWondersDice-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/SevenWondersDice-primary-emit-module.dia",
+    "pch" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/SevenWondersDice-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/SevenWondersDice-primary.swiftdeps"
+  },
+  "/Users/ekscrypto/dev/SevenWondersDice/SevenWondersDice/Models/DiceColor.swift" : {
+    "const-values" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceColor.swiftconstvalues",
+    "dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceColor.d",
+    "diagnostics" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceColor.dia",
+    "index-unit-output-path" : "/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceColor.o",
+    "llvm-bc" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceColor.bc",
+    "object" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceColor.o",
+    "swift-dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceColor.swiftdeps",
+    "swiftmodule" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceColor~partial.swiftmodule"
+  },
+  "/Users/ekscrypto/dev/SevenWondersDice/SevenWondersDice/Models/Die.swift" : {
+    "const-values" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/Die.swiftconstvalues",
+    "dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/Die.d",
+    "diagnostics" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/Die.dia",
+    "index-unit-output-path" : "/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/Die.o",
+    "llvm-bc" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/Die.bc",
+    "object" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/Die.o",
+    "swift-dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/Die.swiftdeps",
+    "swiftmodule" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/Die~partial.swiftmodule"
+  },
+  "/Users/ekscrypto/dev/SevenWondersDice/SevenWondersDice/Models/Quadrant.swift" : {
+    "const-values" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/Quadrant.swiftconstvalues",
+    "dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/Quadrant.d",
+    "diagnostics" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/Quadrant.dia",
+    "index-unit-output-path" : "/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/Quadrant.o",
+    "llvm-bc" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/Quadrant.bc",
+    "object" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/Quadrant.o",
+    "swift-dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/Quadrant.swiftdeps",
+    "swiftmodule" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/Quadrant~partial.swiftmodule"
+  },
+  "/Users/ekscrypto/dev/SevenWondersDice/SevenWondersDice/SevenWondersDiceApp.swift" : {
+    "const-values" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/SevenWondersDiceApp.swiftconstvalues",
+    "dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/SevenWondersDiceApp.d",
+    "diagnostics" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/SevenWondersDiceApp.dia",
+    "index-unit-output-path" : "/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/SevenWondersDiceApp.o",
+    "llvm-bc" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/SevenWondersDiceApp.bc",
+    "object" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/SevenWondersDiceApp.o",
+    "swift-dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/SevenWondersDiceApp.swiftdeps",
+    "swiftmodule" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/SevenWondersDiceApp~partial.swiftmodule"
+  },
+  "/Users/ekscrypto/dev/SevenWondersDice/SevenWondersDice/ViewModels/DiceBoxViewModel.swift" : {
+    "const-values" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceBoxViewModel.swiftconstvalues",
+    "dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceBoxViewModel.d",
+    "diagnostics" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceBoxViewModel.dia",
+    "index-unit-output-path" : "/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceBoxViewModel.o",
+    "llvm-bc" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceBoxViewModel.bc",
+    "object" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceBoxViewModel.o",
+    "swift-dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceBoxViewModel.swiftdeps",
+    "swiftmodule" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceBoxViewModel~partial.swiftmodule"
+  },
+  "/Users/ekscrypto/dev/SevenWondersDice/SevenWondersDice/Views/ContentView.swift" : {
+    "const-values" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/ekscrypto/dev/SevenWondersDice/SevenWondersDice/Views/DiceResultsView.swift" : {
+    "const-values" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceResultsView.swiftconstvalues",
+    "dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceResultsView.d",
+    "diagnostics" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceResultsView.dia",
+    "index-unit-output-path" : "/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceResultsView.o",
+    "llvm-bc" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceResultsView.bc",
+    "object" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceResultsView.o",
+    "swift-dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceResultsView.swiftdeps",
+    "swiftmodule" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceResultsView~partial.swiftmodule"
+  },
+  "/Users/ekscrypto/dev/SevenWondersDice/SevenWondersDice/Views/DiceSelectionView.swift" : {
+    "const-values" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceSelectionView.swiftconstvalues",
+    "dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceSelectionView.d",
+    "diagnostics" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceSelectionView.dia",
+    "index-unit-output-path" : "/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceSelectionView.o",
+    "llvm-bc" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceSelectionView.bc",
+    "object" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceSelectionView.o",
+    "swift-dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceSelectionView.swiftdeps",
+    "swiftmodule" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceSelectionView~partial.swiftmodule"
+  },
+  "/Users/ekscrypto/dev/SevenWondersDice/SevenWondersDice/Views/DiceSetupView.swift" : {
+    "const-values" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceSetupView.swiftconstvalues",
+    "dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceSetupView.d",
+    "diagnostics" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceSetupView.dia",
+    "index-unit-output-path" : "/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceSetupView.o",
+    "llvm-bc" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceSetupView.bc",
+    "object" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceSetupView.o",
+    "swift-dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceSetupView.swiftdeps",
+    "swiftmodule" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DiceSetupView~partial.swiftmodule"
+  },
+  "/Users/ekscrypto/dev/SevenWondersDice/SevenWondersDice/Views/DieImageView.swift" : {
+    "const-values" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DieImageView.swiftconstvalues",
+    "dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DieImageView.d",
+    "diagnostics" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DieImageView.dia",
+    "index-unit-output-path" : "/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DieImageView.o",
+    "llvm-bc" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DieImageView.bc",
+    "object" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DieImageView.o",
+    "swift-dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DieImageView.swiftdeps",
+    "swiftmodule" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/DieImageView~partial.swiftmodule"
+  },
+  "/Users/ekscrypto/dev/SevenWondersDice/SevenWondersDice/Views/GridCell.swift" : {
+    "const-values" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/GridCell.swiftconstvalues",
+    "dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/GridCell.d",
+    "diagnostics" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/GridCell.dia",
+    "index-unit-output-path" : "/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/GridCell.o",
+    "llvm-bc" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/GridCell.bc",
+    "object" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/GridCell.o",
+    "swift-dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/GridCell.swiftdeps",
+    "swiftmodule" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/GridCell~partial.swiftmodule"
+  },
+  "/Users/ekscrypto/dev/SevenWondersDice/SevenWondersDice/Views/QuadrantGridView.swift" : {
+    "const-values" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/QuadrantGridView.swiftconstvalues",
+    "dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/QuadrantGridView.d",
+    "diagnostics" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/QuadrantGridView.dia",
+    "index-unit-output-path" : "/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/QuadrantGridView.o",
+    "llvm-bc" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/QuadrantGridView.bc",
+    "object" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/QuadrantGridView.o",
+    "swift-dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/QuadrantGridView.swiftdeps",
+    "swiftmodule" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/QuadrantGridView~partial.swiftmodule"
+  },
+  "/Users/ekscrypto/dev/SevenWondersDice/SevenWondersDice/Views/QuadrantView.swift" : {
+    "const-values" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/QuadrantView.swiftconstvalues",
+    "dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/QuadrantView.d",
+    "diagnostics" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/QuadrantView.dia",
+    "index-unit-output-path" : "/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/QuadrantView.o",
+    "llvm-bc" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/QuadrantView.bc",
+    "object" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/QuadrantView.o",
+    "swift-dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/QuadrantView.swiftdeps",
+    "swiftmodule" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/QuadrantView~partial.swiftmodule"
+  },
+  "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/ekscrypto/dev/SevenWondersDice/build/DerivedData/Build/Intermediates.noindex/SevenWondersDice.build/Debug-iphoneos/SevenWondersDice.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

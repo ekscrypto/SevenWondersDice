@@ -1,0 +1,48 @@
+{
+  "source": "/Users/ekscrypto/dev/SevenWondersDice/SevenWondersDice/Views/DiceSelectionView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Always Active",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "Gray Dice",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "Unlockable Dice",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 76
+        }
+      },
+      {
+        "comment": "",
+        "key": "You must pick exactly three dice",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "Selected: %lld/3",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 103
+        }
+      }
+    ]
+  },
+  "version": 1
+}
