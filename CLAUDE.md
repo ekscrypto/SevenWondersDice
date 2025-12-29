@@ -4,13 +4,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-SevenWondersDice is an iOS application for rolling dice in the 7 Wonders Dice board game. The app simulates rolling multiple colored dice and distributes them across four quadrants with different costs (0-3 coins). It supports shake-to-roll using device motion detection.
+SevenWondersDice is an iOS application for rolling dice in the 7 Wonders Dice board game. The app simulates rolling multiple colored dice and distributes them across four quadrants with different costs (0-3 coins). This is an unofficial fan-made companion app.
 
 ## Build Commands
 
 ```bash
-# Build the project
-xcodebuild -project SevenWondersDice.xcodeproj -scheme SevenWondersDice -destination 'platform=iOS Simulator,name=iPhone 15' build
+# Build for iOS Simulator (generic)
+xcodebuild -project SevenWondersDice.xcodeproj -scheme SevenWondersDice -destination 'generic/platform=iOS Simulator' build
 
 # Build for physical device
 xcodebuild -project SevenWondersDice.xcodeproj -scheme SevenWondersDice -destination 'generic/platform=iOS' build
@@ -22,63 +22,64 @@ xcodebuild clean -project SevenWondersDice.xcodeproj -scheme SevenWondersDice
 ## Architecture
 
 ### MVVM Pattern
-The app follows the Model-View-ViewModel architecture pattern:
+- **Models** (`SevenWondersDice/Models/`): `Die`, `DiceColor`, `Quadrant`
+- **ViewModels** (`SevenWondersDice/ViewModels/`): `DiceBoxViewModel` handles all dice state and rolling logic
+- **Views** (`SevenWondersDice/Views/`): SwiftUI views for setup, results, and dice display
 
-- **Models** (`SevenWondersDice/Models/`): Data structures representing game entities
-  - `Die`: Represents a single die with color and face index
-  - `DiceColor`: Enum of 10 dice colors (black, blue, gray1-3, green, purple, red, white, yellow)
-  - `Quadrant`: Enum of 4 quadrants (0-3) representing different coin costs
+### State Flow
+1. `ContentView` owns the `DiceBoxViewModel` via `@StateObject`
+2. `hasRolled` determines whether to show `DiceSetupView` or `DiceResultsView`
+3. `activeDice` tracks selected dice; `quadrantDice` stores roll results by quadrant
 
-- **ViewModels** (`SevenWondersDice/ViewModels/`): Business logic and state management
-  - `DiceBoxViewModel`: Main state manager handling dice rolling, shake detection, and quadrant distribution
+### Dice Selection Rules
+- 4 dice are always active: yellow, green, red, blue
+- User must select exactly 3 from 6 selectable dice: gray1, gray2, gray3, black, white, purple
+- Total of 7 dice are rolled when valid selection is made
 
-- **Views** (`SevenWondersDice/Views/`): SwiftUI views
-  - `ContentView`: Main view coordinating between dice selection and results display
-  - `DiceSelectionView`: Grid of toggleable dice buttons
-  - `QuadrantGridView`: 2x2 grid showing rolled dice distributed across quadrants
-
-### State Management
-- Uses `@Published` properties in `DiceBoxViewModel` for reactive state updates
-- Main state: `activeDice` (selected dice), `quadrantDice` (roll results), `hasRolled` (display mode)
-- All view model operations are `@MainActor` annotated for thread safety
-
-### Motion Detection
-- `CMMotionManager` in `DiceBoxViewModel` detects device shaking (threshold: 2.5 acceleration magnitude)
-- Shake triggers automatic dice roll with 1-second cooldown to prevent double-rolls
+### Responsive Layouts
+Both `DiceSetupView` and `DiceResultsView` use `GeometryReader` to detect orientation:
+- Portrait: vertical stacked layout
+- Landscape: horizontal multi-column layout
 
 ## Critical Implementation Details
 
 ### Dice Image Mapping
-Each `DiceColor` has 6 faces, but the image files use non-sequential numbering. The `Die.getImageNumber(for:index:)` method maps logical face indices (0-5) to actual image numbers. For example:
-- Black dice: [66, 67, 68, 70, 71, 72]
-- Some gray variants share image numbers (gray1, gray2, gray3 use overlapping sets)
+Two separate image mapping systems exist:
 
-Images are expected at paths like: `{color.folderName}/IMG_{imageNumber}.jpeg`
+1. **Roll Results** (`Die.getImageNumber`): Maps face indices (0-5) to image asset numbers for displaying random roll results. Some faces repeat (e.g., green uses [51, 52, 53, 51, 52, 53]).
 
-### Image Loading Strategy
-The app uses a fallback loading mechanism in `QuadrantGridView.swift:117-126`:
-1. First attempts to load from app bundle using `UIImage(named:)`
-2. Falls back to hardcoded development path: `/Users/ekscrypto/Downloads/Dices/`
-3. Displays colored placeholder with "?" if image not found
+2. **Selection UI** (`DiceColor.representativeImageName`): Each die has a single representative face shown in the dice selector:
+   - Gray dice show their duplicated face (the face that appears twice)
+   - Other dice show their first face
+   - All images use `IMG_XXXX` format (e.g., `IMG_0066`)
 
-**Important**: Before deploying, ensure all dice images are properly added to the Xcode asset catalog or bundle.
+### Quadrant Layout
+Quadrants arranged with costs:
+- Top-left: 0 coins (free)
+- Top-right: 1 coin
+- Bottom-right: 2 coins
+- Bottom-left: 3 coins
 
-### Random Distribution
-When dice are rolled (`DiceBoxViewModel.rollDice()`):
-1. Each active die gets a random face (0 to faceCount-1)
-2. Each die is independently assigned to a random quadrant
-3. Quadrants can have 0 to N dice (no balanced distribution)
+Each quadrant has a 3x3 grid with one corner reserved (corner closest to center excluded).
+
+### Rolling Animation
+`DiceBoxViewModel.rollDice()` performs 7-10 iterations with cubic ease-out timing (80ms to 250ms delays). `isRolling` flag prevents concurrent rolls.
+
+### Dice Selection Visual States
+`DiceToggleButton` shows actual dice face images with:
+- **Selected**: Full brightness, 1.1x scale, stronger shadow
+- **Unselected**: Dark overlay (0.4 opacity), normal scale, lighter shadow
 
 ## SwiftUI Patterns
 
-- Uses `@StateObject` for view model ownership in root view
-- Binding-based communication between parent and child views
-- Spring animations for dice selection and roll button (response: 0.3, damping: 0.6)
-- Adaptive grid layout for dice selection (80-100pt min/max width)
+- `@StateObject` for ViewModel ownership in `ContentView`
+- Spring animations (response: 0.3, damping: 0.6) for dice selection toggles
+- `GeometryReader` for responsive layouts and square grid sizing
 
-## Color Scheme
+## Visual Theme
 
-The app uses an "ancient parchment" theme:
+Ancient parchment theme:
 - Background: `Color(red: 0.96, green: 0.95, blue: 0.88)`
-- Quadrant backgrounds: Semi-transparent colors (green, blue, orange, red at 0.2 opacity)
-- Typography: Serif font for title, emphasizing classical/board game aesthetic
+- Quadrant backgrounds: green/blue/orange/red at 0.2 opacity
+- Serif typography with muted brown colors
+- Subtitle displays "Unofficial - by fans, for fans"

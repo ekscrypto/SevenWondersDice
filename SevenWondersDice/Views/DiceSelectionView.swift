@@ -26,11 +26,13 @@ struct DiceSelectionView: View {
                 HStack(spacing: 15) {
                     ForEach(Array(viewModel.alwaysActiveDice).sorted(by: { $0.rawValue < $1.rawValue }), id: \.self) { color in
                         VStack(spacing: 4) {
-                            Circle()
-                                .fill(color.displayColor)
+                            Image(color.representativeImageName)
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
                                 .frame(width: 40, height: 40)
+                                .cornerRadius(6)
                                 .overlay(
-                                    Circle()
+                                    RoundedRectangle(cornerRadius: 6)
                                         .stroke(Color.black.opacity(0.2), lineWidth: 2)
                                 )
                                 .shadow(radius: 3)
@@ -163,27 +165,20 @@ struct DiceToggleButton: View {
                             )
                     }
 
-                    Circle()
-                        .fill(color.displayColor)
+                    Image(color.representativeImageName)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
                         .frame(width: 50, height: 50)
+                        .cornerRadius(8)
                         .overlay(
-                            Circle()
+                            RoundedRectangle(cornerRadius: 8)
                                 .stroke(Color.black.opacity(0.2), lineWidth: 2)
                         )
                         .overlay(
-                            Image(systemName: "checkmark")
-                                .foregroundColor(.white)
-                                .fontWeight(.bold)
-                                .opacity(isActive ? 1 : 0)
-                        )
-                        .overlay(
-                            // Indicator ring for always-active or unlockable dice
-                            Circle()
-                                .stroke(indicatorColor ?? .clear, lineWidth: 4)
-                                .padding(-4)
+                            RoundedRectangle(cornerRadius: 8)
+                                .fill(Color.black.opacity(isActive ? 0 : 0.4))
                         )
                         .shadow(radius: isActive ? 5 : 2)
-                        .opacity(isAlwaysActive || isUnlockable ? 1.0 : (isActive ? 1.0 : 0.6))
                 }
 
                 Text(color.rawValue.capitalized)

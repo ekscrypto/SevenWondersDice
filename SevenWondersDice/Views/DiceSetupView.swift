@@ -18,6 +18,10 @@ struct DiceSetupView: View {
                     Text("7 Wonders Dice")
                         .font(.system(size: 28, weight: .bold, design: .serif))
                         .foregroundColor(Color(red: 0.4, green: 0.2, blue: 0.1))
+                    Text("Unofficial - by fans, for fans")
+                        .font(.system(size: 12, weight: .regular, design: .serif))
+                        .italic()
+                        .foregroundColor(Color(red: 0.5, green: 0.35, blue: 0.25))
 
                     HStack(spacing: 20) {
                         // Column 1: Always Active
@@ -31,11 +35,13 @@ struct DiceSetupView: View {
                                 VStack(spacing: 15) {
                                     ForEach(Array(viewModel.alwaysActiveDice).sorted(by: { $0.rawValue < $1.rawValue }), id: \.self) { color in
                                         VStack(spacing: 4) {
-                                            Circle()
-                                                .fill(color.displayColor)
+                                            Image(color.representativeImageName)
+                                                .resizable()
+                                                .aspectRatio(contentMode: .fit)
                                                 .frame(width: 40, height: 40)
+                                                .cornerRadius(6)
                                                 .overlay(
-                                                    Circle()
+                                                    RoundedRectangle(cornerRadius: 6)
                                                         .stroke(Color.black.opacity(0.2), lineWidth: 2)
                                                 )
                                                 .shadow(radius: 3)
@@ -165,6 +171,10 @@ struct DiceSetupView: View {
                     Text("7 Wonders Dice")
                         .font(.system(size: 36, weight: .bold, design: .serif))
                         .foregroundColor(Color(red: 0.4, green: 0.2, blue: 0.1))
+                    Text("Unofficial - by fans, for fans")
+                        .font(.system(size: 14, weight: .regular, design: .serif))
+                        .italic()
+                        .foregroundColor(Color(red: 0.5, green: 0.35, blue: 0.25))
 
                     DiceSelectionView(viewModel: viewModel)
 
